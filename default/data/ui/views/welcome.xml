@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<view onunloadcanceljob="True" template="dashboard.html">
+	<label>Welcome</label>
+	<module name="AccountBar" layoutPanel="appHeader" />
+	<module name="AppBar" layoutPanel="appHeader" />
+	<module name="Message" layoutPanel="messaging">
+		<param name="filter">*</param>
+		<param name="clearOnJobDispatch">False</param>
+		<param name="maxSize">1</param>
+	</module>
+	<module name="TitleBar" layoutPanel="viewHeader">
+		<param name="actionsMenuFilter">dashboard</param>
+	</module>
+	<module name="StaticContentSample" layoutPanel="panel_row1_col1">
+		<param name="text"><![CDATA[
+<h1>Welcome to the Splunk eBay Add-On for Aruba API!</h1>
+<p>This add-on is used to create the dynamic lookup table of Aruba WAPs, by calling the Aruba API Endpoints in the envrionment. Configure this app with 'config.json'.</p>
+<a href="configure">Configure the API here</a>
+		]]></param>
+	</module>
+</view>

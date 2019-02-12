@@ -1,0 +1,23 @@
+[]
+access = read : [ * ], write : [ admin, ess_admin, power ]
+export = system
+
+[tags]
+export = system
+
+[props]
+export = system
+
+[transforms]
+export = system
+
+[lookups]
+export = system
+
+[viewstates]
+access = read : [ * ], write : [ * ]
+export = system
+
+[lookups/aruba_wap_list.csv]
+access = read : [ * ], write : [ admin, ess_admin, power ]
+export = system

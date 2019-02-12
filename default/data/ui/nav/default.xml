@@ -1,0 +1,5 @@
+<nav>
+	<view name="welcome" default="true"/>
+	<view name="configure" />
+	<view name="search" />
+</nav>

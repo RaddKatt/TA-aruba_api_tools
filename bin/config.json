@@ -1,0 +1,17 @@
+{
+	"AMER": {
+		"user": "<username>",
+		"pw": "<password>",
+		"amp_fqdn": "<aruba_api_endpoint ex: endpoint.domain.com>"
+	},
+	"EMEA": {
+		"user": "<username>",
+		"pw": "<password>",
+		"amp_fqdn": "<aruba_api_endpoint ex: endpoint.domain.com>"
+	},
+	"APAC": {
+		"user": "<username>",
+		"pw": "<password>",
+		"amp_fqdn": "<aruba_api_endpoint ex: endpoint.domain.com>"
+	}
+}

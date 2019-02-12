@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<dashboard isDashboard="false">
+ <label>Configuration</label>
+  <row>
+   <html>
+	<h1>Credentials setup is disabled from the UI at this time.</h1>
+    <h2>Credentials Setup</h2>
+    <form id="configuration">
+     <table>
+      <tbody>
+       <!-- username -->
+       <tr>
+        <td>
+         <label for="username">User Name: </label>
+        </td>
+        <td>
+         <input id="username" type="text" size="255" />
+        </td>
+       </tr>
+       <!-- password -->
+       <tr>
+        <td>
+         <label for="password">Password: </label>
+        </td>
+        <td>
+         <input id="password" type="password" />
+        </td>
+       </tr>
+      </tbody>
+     </table>
+    </form>
+   </html>
+  </row>
+</dashboard>
